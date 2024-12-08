@@ -7,10 +7,10 @@ if (!isset($_SESSION)) {
     session_start();
 }
 
-$db_host = 'localhost';
-$db_name = 'reactjs_home_repairs';
-$db_user = 'root';
-$db_pass = '';
+$db_host = 'sql.freedb.tech';
+$db_name = 'freedb_gsmfix';
+$db_user = 'freedb_gsmfix';
+$db_pass = 'yWUe9D8Y6?X*8@%';
 $db_port = 3306;
 
 if ($isProduction) {
