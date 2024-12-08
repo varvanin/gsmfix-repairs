@@ -8,7 +8,7 @@ header("Access-Control-Allow-Headers: X-Requested-With");
 
 require_once "./config/BASE_URL.php";
 
-$isProduction = false;
+$isProduction = true;
 
 $baseUrl = $BASE_URL['DEVELOPMENT'];
 if ($isProduction) $baseUrl = $BASE_URL['PRODUCTION'];
